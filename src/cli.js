@@ -1,5 +1,4 @@
 import readlineSync from "readline-sync";
-//import { generateNumberAllGames } from "../src/index";
 
 export const printText = (stringToPrint) => {
   console.log(stringToPrint);
