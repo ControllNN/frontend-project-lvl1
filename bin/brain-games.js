@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-import { getName } from "../src/cli.js";
-import { greet } from "../src/cli.js";
+import { getName, userName } from "../src/userData.js";
+import { greet, printUserName } from "../src/index.js";
+import { printText } from "../src/cli.js";
 
-greet();
+printText(greet);
 getName();
+printUserName(userName);
