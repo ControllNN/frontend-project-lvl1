@@ -6,4 +6,4 @@
 
 ### asciinema: installing npm package, starting and playing the game "brain-even"
 
-https://asciinema.org/connect/6dd15638-6d4c-4e97-9972-812687473ee0
+[![asciicast](https://asciinema.org/a/XLzvoKlnQ10QkZV1SDw42TozR.svg)](https://asciinema.org/a/XLzvoKlnQ10QkZV1SDw42TozR)
