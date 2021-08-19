@@ -1,11 +1,6 @@
 #!/usr/bin/env node
 
-import { printQestion } from "../src/games/guessEven.js";
-import { getTerm } from "../src/games/guessEven.js";
-import { greet } from "../src/cli.js";
-import { printName } from "../src/cli.js";
+import { playGame } from "../src/index.js";
+import { evenGameLogicFunction, rules } from "../src/games/guessEven.js";
 
-greet();
-printName();
-getTerm();
-printQestion();
+playGame(evenGameLogicFunction, rules, 3);
