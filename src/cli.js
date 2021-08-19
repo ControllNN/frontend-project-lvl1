@@ -1,15 +1,11 @@
 import readlineSync from "readline-sync";
+//import { generateNumberAllGames } from "../src/index";
 
-export const greet = () => {
-  console.log("Welcome to the Brain Games!");
+export const printText = (stringToPrint) => {
+  console.log(stringToPrint);
 };
 
-let name;
-export const printName = () => {
-  name = readlineSync.question("May I have your name? ");
-  console.log(`Hello, ${name}!`);
-};
-
-export const getName = () => {
-  return name;
+export const requestInput = (requestStr) => {
+  const userInput = readlineSync.question(`${requestStr}`);
+  return userInput;
 };
