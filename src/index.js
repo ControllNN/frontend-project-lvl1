@@ -1,7 +1,7 @@
 import { printText } from "../src/cli.js";
 import { getName, userName } from "./userData.js";
 
-export const greet = "Welcome to the Brain Games!";
+export const greet = 'Welcome to the Brain Games!';
 
 export const printUserName = (str) => {
   printText(`Hello, ${str}!`);
